@@ -8,5 +8,21 @@
 .signin-form-container {
     width: 50%;
     padding: 20px;
-    margin-top: -600px;
+    margin-top: -400px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px; /* You can adjust this width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.sign-in {
+    width: 100%;
+    margin-bottom: 10px; /* Space between Sign In and Sign Up buttons */
+}
+
+.sign-up {
+    align-self: flex-end; /* Position Sign Up to the right */
 }

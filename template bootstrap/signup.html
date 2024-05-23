@@ -11,24 +11,17 @@
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-                <a class="navbar-brand" href="#"><i class="fa-solid
-                
-                fa-cloud"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                  
-            </div>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: white; background-color: green;">Home</a>
+                </li>
+               
         </div>
+    </div>
+</nav>
     </nav>
 
     <!-- Sign Up Form -->
@@ -45,10 +38,18 @@
                 <input type="password" class="form-control" id="signupPassword">
             </div>
             <div class="mb-3">
-                <label for="signupConfirmPassword" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="signupConfirmPassword">
+                <label for="signupPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="signupPassword">
             </div>
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <div class="mb-3">
+                <label for="signupPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="signupPassword">
+            </div>
+            <div class="button-container">
+                <button type="submit" class="btn btn-success sign-in">Sign up</button>
+                <a href="signin.html" class="btn btn-secondary sign-up">Sign in</a>
+            </div>
+          
         </form>
     </div>
 </div>
